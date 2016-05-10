@@ -9,7 +9,7 @@ $(window).keypress(function (e) {
 })
 function randomWord() {
 	if (first === true) {
-		var index = Math.floor(Math.random(5));
+		var index = Math.floor(Math.random() * 5);
 		first = false;
 	}
 	else {
